@@ -11,7 +11,7 @@ export default function InlineFormDoc(props) {
 
     return (
       <div>
-        <Breadcrumb divider="/">
+        <Breadcrumb>
           <BreadcrumbItem><Link to="/">Readme</Link></BreadcrumbItem>
           <BreadcrumbItem active="true">InlineForm</BreadcrumbItem>
         </Breadcrumb>

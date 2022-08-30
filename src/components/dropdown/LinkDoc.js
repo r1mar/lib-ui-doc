@@ -28,7 +28,7 @@ export default function LinkDoc(props) {
 
   return (
     <div>
-      <Breadcrumb divider="/">
+      <Breadcrumb>
         <BreadcrumbItem><Link to="/">Readme</Link></BreadcrumbItem>
         <BreadcrumbItem><Link to="/dropdown">Dropdown</Link></BreadcrumbItem>
         <BreadcrumbItem active="true">DropdownLink</BreadcrumbItem>

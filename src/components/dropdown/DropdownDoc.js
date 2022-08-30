@@ -30,7 +30,7 @@ export default function DropdownDoc(props) {
 
   return (
     <div>
-      <Breadcrumb divider="/">
+      <Breadcrumb>
         <BreadcrumbItem><Link to="/">Readme</Link></BreadcrumbItem>
         <BreadcrumbItem active="true">Dropdown</BreadcrumbItem>
       </Breadcrumb>

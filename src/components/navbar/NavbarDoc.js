@@ -50,7 +50,7 @@ export default function NavbarDoc(props) {
 
   return (
     <div>
-      <Breadcrumb divider="/">
+      <Breadcrumb>
         <BreadcrumbItem><Link to="/">Readme</Link></BreadcrumbItem>
         <BreadcrumbItem active="true">Navbar</BreadcrumbItem>
       </Breadcrumb>

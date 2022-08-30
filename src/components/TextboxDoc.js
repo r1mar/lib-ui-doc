@@ -23,7 +23,7 @@ export default function TextboxDoc(props) {
 
     return (
       <div>
-        <Breadcrumb divider="/">
+        <Breadcrumb>
           <BreadcrumbItem><Link to="/">Readme</Link></BreadcrumbItem>
           <BreadcrumbItem active="true">Textbox</BreadcrumbItem>
         </Breadcrumb>
